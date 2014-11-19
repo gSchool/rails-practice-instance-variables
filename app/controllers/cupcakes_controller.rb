@@ -12,10 +12,14 @@ class CupcakesController < ApplicationController
   end
 
   def maple_bacon
-
+    @sizes = ['mini', 'normal', 'mega', 'sheetcake size']
   end
 
   def red_velvet
-
+    @ingredients = {
+      flour: '2 cups',
+      sugar: '1 cup',
+      butter: '1 stick',
+    }
   end
 end

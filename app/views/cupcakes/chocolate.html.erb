@@ -1,0 +1,7 @@
+<h1>Cupcakes come with many frostings and amounts</h1>
+
+<ul>
+  <% @frostings.each do |ingredient, amount| %>
+    <li><%= amount%> of <%= ingredient%></li>
+  <% end %>
+</ul>
